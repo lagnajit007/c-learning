@@ -1,0 +1,89 @@
+#1
+; --> calls terminator --> a terminator stops the command line
+
+there are two typws of conversion in conversion
+i)---> implicit (which is done by the compiler).
+>>>> like int data type float e store hote pare
+but
+float data type int a store hote pare na.
+
+ii)--> Explicit (which is done by the user)
+....................................................................................................
+#2 
+c language e operation sobso,oi right to left hoi, means jodi  thake [printf("%d", a+b);] tale ekane age a+b er 
+operation ta hbe rule onujai then sei calculated value ta  %d er jonno bosbe, and print f er jonno screen e print hbe.
+
+.............................................................................................
+#3 
+c te sorol er khetre je operator gulor priority besi [*, /, %] segulor operation age & jegulor priority kom [+, -, =]
+ segulor operation pore hbe, exmp.--> a+b*c thake thahole b*c er op age and then seta a er songe + hbe.
+
+ & also jodi () bracket thakle tahole tar kaj sobar age hobe.
+....................................................................................................
+#4
+there are 4 types of cotroll instructions in c
+1. sequence controll (code order by order lekha hoi)
+2. Descition controll (if-else)
+3. loop controll (for loop, while loop etc. i.e. je kaj gulo amader bar bar loop cycle wisekorte hbe segulo included)
+4. Case controll (i.e. monday to friday office korbo but sat and sun office korbo na....ei type er case)
+....................................................................................................
+#5
+ here r 6 operators
+ 1. Arithmatic operators (+, -, *, %, /)
+
+ 2. Relational operators (== .....equal, 
+
+                          >, >=, <, <=
+
+                          != .... not equal to
+ )
+ 3. Logical operators (&& --> AND --> every statement should be true or th eoutput will come 0
+                       || --> OR
+                       ! --> NOT 
+)
+ 4. bitwise operators ()
+ 5. Assignment operators ()
+ 6. Ternary operators (condional operator)
+
+....................................................................................................
+#6
+a=b means b er value a te assign korano, a r b soman noi
+....................................................................................................
+#7
+HOW TO WRITE IF ELSE STATEMENT?
+
+{
+int var;
+printf("enter about var ");
+scanf("%d", &var);
+if(condition of the specified var){
+printf( write what happens if its becoming true  );
+}
+else{
+    printf( write what happens if the condition won't satisfied );
+}
+
+}
+....................................................................................................
+#8
+HOW TO WRITE IF ELSE STATEMENT?
+{
+    int var;
+printf("enter var: ");
+
+scanf("%d",&var);
+
+if (condition)
+{ 
+    printf("write the condition if the statement satisfies");  
+}
+else if (another cond)
+{
+    printf("write the condition if the another statement satisfies"); 
+}
+}
+though we can write multiple else if cond. as we want
+....................................................................................................
+#9
+....................................................................................................
+#10
